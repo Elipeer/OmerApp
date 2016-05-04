@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     NSLog(@"people");
+    NSLog(@"cute");
+    //people
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
