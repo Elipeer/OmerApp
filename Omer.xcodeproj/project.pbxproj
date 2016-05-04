@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF860F21CD98FF60057470A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF860F11CD98FF60057470A /* main.m */; };
+		CEF860F51CD98FF60057470A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF860F41CD98FF60057470A /* AppDelegate.m */; };
+		CEF860F81CD98FF60057470A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF860F71CD98FF60057470A /* ViewController.m */; };
+		CEF860FB1CD98FF60057470A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF860F91CD98FF60057470A /* Main.storyboard */; };
+		CEF860FE1CD98FF60057470A /* Omer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEF860FC1CD98FF60057470A /* Omer.xcdatamodeld */; };
+		CEF861001CD98FF60057470A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF860FF1CD98FF60057470A /* Assets.xcassets */; };
+		CEF861031CD98FF60057470A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF861011CD98FF60057470A /* LaunchScreen.storyboard */; };
+		CEF8610E1CD98FF60057470A /* OmerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF8610D1CD98FF60057470A /* OmerTests.m */; };
+		CEF861191CD98FF60057470A /* OmerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF861181CD98FF60057470A /* OmerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF8610A1CD98FF60057470A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF860E51CD98FF60057470A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF860EC1CD98FF60057470A;
+			remoteInfo = Omer;
+		};
+		CEF861151CD98FF60057470A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF860E51CD98FF60057470A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF860EC1CD98FF60057470A;
+			remoteInfo = Omer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF860ED1CD98FF60057470A /* Omer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF860F11CD98FF60057470A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF860F31CD98FF60057470A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF860F41CD98FF60057470A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF860F61CD98FF60057470A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEF860F71CD98FF60057470A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEF860FA1CD98FF60057470A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF860FD1CD98FF60057470A /* Omer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Omer.xcdatamodel; sourceTree = "<group>"; };
+		CEF860FF1CD98FF60057470A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF861021CD98FF60057470A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF861041CD98FF60057470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF861091CD98FF60057470A /* OmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF8610D1CD98FF60057470A /* OmerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmerTests.m; sourceTree = "<group>"; };
+		CEF8610F1CD98FF60057470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF861141CD98FF60057470A /* OmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF861181CD98FF60057470A /* OmerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmerUITests.m; sourceTree = "<group>"; };
+		CEF8611A1CD98FF60057470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF860EA1CD98FF60057470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF861061CD98FF60057470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF861111CD98FF60057470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF860E41CD98FF60057470A = {
+			isa = PBXGroup;
+			children = (
+				CEF860EF1CD98FF60057470A /* Omer */,
+				CEF8610C1CD98FF60057470A /* OmerTests */,
+				CEF861171CD98FF60057470A /* OmerUITests */,
+				CEF860EE1CD98FF60057470A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF860EE1CD98FF60057470A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF860ED1CD98FF60057470A /* Omer.app */,
+				CEF861091CD98FF60057470A /* OmerTests.xctest */,
+				CEF861141CD98FF60057470A /* OmerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF860EF1CD98FF60057470A /* Omer */ = {
+			isa = PBXGroup;
+			children = (
+				CEF860F31CD98FF60057470A /* AppDelegate.h */,
+				CEF860F41CD98FF60057470A /* AppDelegate.m */,
+				CEF860F61CD98FF60057470A /* ViewController.h */,
+				CEF860F71CD98FF60057470A /* ViewController.m */,
+				CEF860F91CD98FF60057470A /* Main.storyboard */,
+				CEF860FF1CD98FF60057470A /* Assets.xcassets */,
+				CEF861011CD98FF60057470A /* LaunchScreen.storyboard */,
+				CEF861041CD98FF60057470A /* Info.plist */,
+				CEF860FC1CD98FF60057470A /* Omer.xcdatamodeld */,
+				CEF860F01CD98FF60057470A /* Supporting Files */,
+			);
+			path = Omer;
+			sourceTree = "<group>";
+		};
+		CEF860F01CD98FF60057470A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF860F11CD98FF60057470A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF8610C1CD98FF60057470A /* OmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8610D1CD98FF60057470A /* OmerTests.m */,
+				CEF8610F1CD98FF60057470A /* Info.plist */,
+			);
+			path = OmerTests;
+			sourceTree = "<group>";
+		};
+		CEF861171CD98FF60057470A /* OmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF861181CD98FF60057470A /* OmerUITests.m */,
+				CEF8611A1CD98FF60057470A /* Info.plist */,
+			);
+			path = OmerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF860EC1CD98FF60057470A /* Omer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF8611D1CD98FF60057470A /* Build configuration list for PBXNativeTarget "Omer" */;
+			buildPhases = (
+				CEF860E91CD98FF60057470A /* Sources */,
+				CEF860EA1CD98FF60057470A /* Frameworks */,
+				CEF860EB1CD98FF60057470A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omer;
+			productName = Omer;
+			productReference = CEF860ED1CD98FF60057470A /* Omer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF861081CD98FF60057470A /* OmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF861201CD98FF60057470A /* Build configuration list for PBXNativeTarget "OmerTests" */;
+			buildPhases = (
+				CEF861051CD98FF60057470A /* Sources */,
+				CEF861061CD98FF60057470A /* Frameworks */,
+				CEF861071CD98FF60057470A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF8610B1CD98FF60057470A /* PBXTargetDependency */,
+			);
+			name = OmerTests;
+			productName = OmerTests;
+			productReference = CEF861091CD98FF60057470A /* OmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF861131CD98FF60057470A /* OmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF861231CD98FF60057470A /* Build configuration list for PBXNativeTarget "OmerUITests" */;
+			buildPhases = (
+				CEF861101CD98FF60057470A /* Sources */,
+				CEF861111CD98FF60057470A /* Frameworks */,
+				CEF861121CD98FF60057470A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF861161CD98FF60057470A /* PBXTargetDependency */,
+			);
+			name = OmerUITests;
+			productName = OmerUITests;
+			productReference = CEF861141CD98FF60057470A /* OmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF860E51CD98FF60057470A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = elipeer;
+				TargetAttributes = {
+					CEF860EC1CD98FF60057470A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CEF861081CD98FF60057470A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CEF860EC1CD98FF60057470A;
+					};
+					CEF861131CD98FF60057470A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CEF860EC1CD98FF60057470A;
+					};
+				};
+			};
+			buildConfigurationList = CEF860E81CD98FF60057470A /* Build configuration list for PBXProject "Omer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF860E41CD98FF60057470A;
+			productRefGroup = CEF860EE1CD98FF60057470A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF860EC1CD98FF60057470A /* Omer */,
+				CEF861081CD98FF60057470A /* OmerTests */,
+				CEF861131CD98FF60057470A /* OmerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF860EB1CD98FF60057470A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF861031CD98FF60057470A /* LaunchScreen.storyboard in Resources */,
+				CEF861001CD98FF60057470A /* Assets.xcassets in Resources */,
+				CEF860FB1CD98FF60057470A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF861071CD98FF60057470A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF861121CD98FF60057470A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF860E91CD98FF60057470A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF860FE1CD98FF60057470A /* Omer.xcdatamodeld in Sources */,
+				CEF860F81CD98FF60057470A /* ViewController.m in Sources */,
+				CEF860F51CD98FF60057470A /* AppDelegate.m in Sources */,
+				CEF860F21CD98FF60057470A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF861051CD98FF60057470A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF8610E1CD98FF60057470A /* OmerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF861101CD98FF60057470A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF861191CD98FF60057470A /* OmerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF8610B1CD98FF60057470A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF860EC1CD98FF60057470A /* Omer */;
+			targetProxy = CEF8610A1CD98FF60057470A /* PBXContainerItemProxy */;
+		};
+		CEF861161CD98FF60057470A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF860EC1CD98FF60057470A /* Omer */;
+			targetProxy = CEF861151CD98FF60057470A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF860F91CD98FF60057470A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF860FA1CD98FF60057470A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF861011CD98FF60057470A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF861021CD98FF60057470A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF8611B1CD98FF60057470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF8611C1CD98FF60057470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF8611E1CD98FF60057470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elipeer.Omer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEF8611F1CD98FF60057470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elipeer.Omer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEF861211CD98FF60057470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elipeer.OmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omer.app/Omer";
+			};
+			name = Debug;
+		};
+		CEF861221CD98FF60057470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elipeer.OmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omer.app/Omer";
+			};
+			name = Release;
+		};
+		CEF861241CD98FF60057470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elipeer.OmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Omer;
+			};
+			name = Debug;
+		};
+		CEF861251CD98FF60057470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elipeer.OmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Omer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF860E81CD98FF60057470A /* Build configuration list for PBXProject "Omer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF8611B1CD98FF60057470A /* Debug */,
+				CEF8611C1CD98FF60057470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF8611D1CD98FF60057470A /* Build configuration list for PBXNativeTarget "Omer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF8611E1CD98FF60057470A /* Debug */,
+				CEF8611F1CD98FF60057470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF861201CD98FF60057470A /* Build configuration list for PBXNativeTarget "OmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF861211CD98FF60057470A /* Debug */,
+				CEF861221CD98FF60057470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF861231CD98FF60057470A /* Build configuration list for PBXNativeTarget "OmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF861241CD98FF60057470A /* Debug */,
+				CEF861251CD98FF60057470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEF860FC1CD98FF60057470A /* Omer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEF860FD1CD98FF60057470A /* Omer.xcdatamodel */,
+			);
+			currentVersion = CEF860FD1CD98FF60057470A /* Omer.xcdatamodel */;
+			path = Omer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEF860E51CD98FF60057470A /* Project object */;
+}
