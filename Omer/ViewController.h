@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KosherCocoa/KosherCocoa.h"
+#import <KosherCocoa/KosherCocoa.h>
+#import <CoreLocation/CoreLocation.h>
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
+{
+    
+     CLLocationManager *locationManager;
+    IBOutlet UILabel *label;
+    IBOutlet UILabel *label1;
 
-@interface ViewController : UIViewController
-
+    
+    
+}
+@property (nonatomic, retain) CLLocationManager *locationManager;
 
 @end
 
