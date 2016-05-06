@@ -13,13 +13,15 @@
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
 {
     
-     CLLocationManager *locationManager;
     IBOutlet UILabel *label;
     IBOutlet UILabel *label1;
+    IBOutlet UILabel *label3;
+
 
     
     
 }
+-(IBAction)Button:(id)sender;
 @property (nonatomic, retain) CLLocationManager *locationManager;
 
 @end
