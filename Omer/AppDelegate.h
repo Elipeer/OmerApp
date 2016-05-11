@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <KosherCocoa/KosherCocoa.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

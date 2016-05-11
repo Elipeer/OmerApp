@@ -282,6 +282,15 @@
 				TargetAttributes = {
 					CEF860EC1CD98FF60057470A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 365EY2G7MS;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					CEF861081CD98FF60057470A = {
 						CreatedOnToolsVersion = 7.3;

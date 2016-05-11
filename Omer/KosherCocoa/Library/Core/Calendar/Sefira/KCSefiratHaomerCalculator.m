@@ -37,7 +37,8 @@ const NSInteger lengthOfSefira = 49;
 
 + (NSInteger)dayOfSefira
 {
-	return [KCSefiratHaomerCalculator dayOfSefiraForDate:[NSDate date]];
+    
+	return [KCSefiratHaomerCalculator dayOfSefiraForDate:[NSDate date]] ;
 }
 
 // Returns 1-49, or 0 for all other days
