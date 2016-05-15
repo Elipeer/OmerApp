@@ -17,11 +17,10 @@
     IBOutlet UILabel *label1;
     IBOutlet UILabel *label3;
 
-
+    IBOutlet UITextView *textView;
     
     
 }
--(IBAction)Button:(id)sender;
 @property (nonatomic, retain) CLLocationManager *locationManager;
 
 @end

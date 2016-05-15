@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2E1C901CE832E2002A3A4B /* KosherCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2E1C891CE832A6002A3A4B /* KosherCocoa.framework */; };
+		CE2E1C911CE832EA002A3A4B /* KosherCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2E1C891CE832A6002A3A4B /* KosherCocoa.framework */; };
+		CE2E1C921CE832EA002A3A4B /* KosherCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE2E1C891CE832A6002A3A4B /* KosherCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEF860F21CD98FF60057470A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF860F11CD98FF60057470A /* main.m */; };
 		CEF860F51CD98FF60057470A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF860F41CD98FF60057470A /* AppDelegate.m */; };
 		CEF860F81CD98FF60057470A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF860F71CD98FF60057470A /* ViewController.m */; };
@@ -16,15 +19,45 @@
 		CEF861031CD98FF60057470A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF861011CD98FF60057470A /* LaunchScreen.storyboard */; };
 		CEF8610E1CD98FF60057470A /* OmerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF8610D1CD98FF60057470A /* OmerTests.m */; };
 		CEF861191CD98FF60057470A /* OmerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF861181CD98FF60057470A /* OmerUITests.m */; };
-		CEF861271CD9B18F0057470A /* KosherCocoa in Resources */ = {isa = PBXBuildFile; fileRef = CEF861261CD9B18F0057470A /* KosherCocoa */; };
-		CEF861391CD9BD8B0057470A /* KosherCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF861321CD9BC9D0057470A /* KosherCocoa.framework */; };
-		CEF8613B1CD9C2460057470A /* KosherCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8613A1CD9C2460057470A /* KosherCocoa.framework */; };
-		CEF8613C1CD9C2C40057470A /* KosherCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8613A1CD9C2460057470A /* KosherCocoa.framework */; };
-		CEF8613D1CD9C2C40057470A /* KosherCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8613A1CD9C2460057470A /* KosherCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEF861401CD9C7830057470A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF8613F1CD9C7830057470A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE2E1C881CE832A6002A3A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4618ECE51BF449EF00C33159;
+			remoteInfo = KosherCocoa;
+		};
+		CE2E1C8A1CE832A6002A3A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46130E021BF52DF6001D19FC;
+			remoteInfo = KosherCocoaWatchOS;
+		};
+		CE2E1C8C1CE832A6002A3A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 466FA7191CD2855900668CD1;
+			remoteInfo = KosherCocoaOSX;
+		};
+		CE2E1C8E1CE832A6002A3A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 466FA7B81CD286E200668CD1;
+			remoteInfo = KosherCocoaTVOS;
+		};
+		CE2E1C931CE832EA002A3A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4618ECE41BF449EF00C33159;
+			remoteInfo = KosherCocoa;
+		};
 		CEF8610A1CD98FF60057470A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEF860E51CD98FF60057470A /* Project object */;
@@ -39,44 +72,16 @@
 			remoteGlobalIDString = CEF860EC1CD98FF60057470A;
 			remoteInfo = Omer;
 		};
-		CEF861311CD9BC9D0057470A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4618ECE51BF449EF00C33159;
-			remoteInfo = KosherCocoa;
-		};
-		CEF861331CD9BC9D0057470A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 46130E021BF52DF6001D19FC;
-			remoteInfo = KosherCocoaWatchOS;
-		};
-		CEF861351CD9BC9D0057470A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 466FA7191CD2855900668CD1;
-			remoteInfo = KosherCocoaOSX;
-		};
-		CEF861371CD9BC9D0057470A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 466FA7B81CD286E200668CD1;
-			remoteInfo = KosherCocoaTVOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CEF8613E1CD9C2C40057470A /* Embed Frameworks */ = {
+		CE2E1C951CE832EA002A3A4B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CEF8613D1CD9C2C40057470A /* KosherCocoa.framework in Embed Frameworks */,
+				CE2E1C921CE832EA002A3A4B /* KosherCocoa.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +89,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KosherCocoa.xcodeproj; path = ../../Desktop/KosherCocoa.xcodeproj; sourceTree = "<group>"; };
 		CEF860ED1CD98FF60057470A /* Omer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF860F11CD98FF60057470A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEF860F31CD98FF60057470A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,9 +107,6 @@
 		CEF861141CD98FF60057470A /* OmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF861181CD98FF60057470A /* OmerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmerUITests.m; sourceTree = "<group>"; };
 		CEF8611A1CD98FF60057470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEF861261CD9B18F0057470A /* KosherCocoa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KosherCocoa; sourceTree = "<group>"; };
-		CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KosherCocoa.xcodeproj; path = ../../Desktop/KosherCocoa/KosherCocoa/KosherCocoa.xcodeproj; sourceTree = "<group>"; };
-		CEF8613A1CD9C2460057470A /* KosherCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KosherCocoa.framework; sourceTree = "<group>"; };
 		CEF8613F1CD9C7830057470A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -112,10 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2E1C911CE832EA002A3A4B /* KosherCocoa.framework in Frameworks */,
+				CE2E1C901CE832E2002A3A4B /* KosherCocoa.framework in Frameworks */,
 				CEF861401CD9C7830057470A /* CoreLocation.framework in Frameworks */,
-				CEF8613C1CD9C2C40057470A /* KosherCocoa.framework in Frameworks */,
-				CEF8613B1CD9C2460057470A /* KosherCocoa.framework in Frameworks */,
-				CEF861391CD9BD8B0057470A /* KosherCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +138,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2E1C821CE832A6002A3A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E1C891CE832A6002A3A4B /* KosherCocoa.framework */,
+				CE2E1C8B1CE832A6002A3A4B /* KosherCocoa.framework */,
+				CE2E1C8D1CE832A6002A3A4B /* KosherCocoa.framework */,
+				CE2E1C8F1CE832A6002A3A4B /* KosherCocoa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CEF860E41CD98FF60057470A = {
 			isa = PBXGroup;
 			children = (
+				CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */,
 				CEF8613F1CD9C7830057470A /* CoreLocation.framework */,
-				CEF8613A1CD9C2460057470A /* KosherCocoa.framework */,
-				CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */,
 				CEF860EF1CD98FF60057470A /* Omer */,
 				CEF8610C1CD98FF60057470A /* OmerTests */,
 				CEF861171CD98FF60057470A /* OmerUITests */,
@@ -162,7 +174,6 @@
 		CEF860EF1CD98FF60057470A /* Omer */ = {
 			isa = PBXGroup;
 			children = (
-				CEF861261CD9B18F0057470A /* KosherCocoa */,
 				CEF860F31CD98FF60057470A /* AppDelegate.h */,
 				CEF860F41CD98FF60057470A /* AppDelegate.m */,
 				CEF860F61CD98FF60057470A /* ViewController.h */,
@@ -203,17 +214,6 @@
 			path = OmerUITests;
 			sourceTree = "<group>";
 		};
-		CEF8612B1CD9BC9D0057470A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEF861321CD9BC9D0057470A /* KosherCocoa.framework */,
-				CEF861341CD9BC9D0057470A /* KosherCocoa.framework */,
-				CEF861361CD9BC9D0057470A /* KosherCocoa.framework */,
-				CEF861381CD9BC9D0057470A /* KosherCocoa.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,11 +224,12 @@
 				CEF860E91CD98FF60057470A /* Sources */,
 				CEF860EA1CD98FF60057470A /* Frameworks */,
 				CEF860EB1CD98FF60057470A /* Resources */,
-				CEF8613E1CD9C2C40057470A /* Embed Frameworks */,
+				CE2E1C951CE832EA002A3A4B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE2E1C941CE832EA002A3A4B /* PBXTargetDependency */,
 			);
 			name = Omer;
 			productName = Omer;
@@ -315,8 +316,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = CEF8612B1CD9BC9D0057470A /* Products */;
-					ProjectRef = CEF8612A1CD9BC9D0057470A /* KosherCocoa.xcodeproj */;
+					ProductGroup = CE2E1C821CE832A6002A3A4B /* Products */;
+					ProjectRef = CE2E1C811CE832A6002A3A4B /* KosherCocoa.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -329,32 +330,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CEF861321CD9BC9D0057470A /* KosherCocoa.framework */ = {
+		CE2E1C891CE832A6002A3A4B /* KosherCocoa.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KosherCocoa.framework;
-			remoteRef = CEF861311CD9BC9D0057470A /* PBXContainerItemProxy */;
+			remoteRef = CE2E1C881CE832A6002A3A4B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CEF861341CD9BC9D0057470A /* KosherCocoa.framework */ = {
+		CE2E1C8B1CE832A6002A3A4B /* KosherCocoa.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KosherCocoa.framework;
-			remoteRef = CEF861331CD9BC9D0057470A /* PBXContainerItemProxy */;
+			remoteRef = CE2E1C8A1CE832A6002A3A4B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CEF861361CD9BC9D0057470A /* KosherCocoa.framework */ = {
+		CE2E1C8D1CE832A6002A3A4B /* KosherCocoa.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KosherCocoa.framework;
-			remoteRef = CEF861351CD9BC9D0057470A /* PBXContainerItemProxy */;
+			remoteRef = CE2E1C8C1CE832A6002A3A4B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CEF861381CD9BC9D0057470A /* KosherCocoa.framework */ = {
+		CE2E1C8F1CE832A6002A3A4B /* KosherCocoa.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KosherCocoa.framework;
-			remoteRef = CEF861371CD9BC9D0057470A /* PBXContainerItemProxy */;
+			remoteRef = CE2E1C8E1CE832A6002A3A4B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -364,7 +365,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF861271CD9B18F0057470A /* KosherCocoa in Resources */,
 				CEF861031CD98FF60057470A /* LaunchScreen.storyboard in Resources */,
 				CEF861001CD98FF60057470A /* Assets.xcassets in Resources */,
 				CEF860FB1CD98FF60057470A /* Main.storyboard in Resources */,
@@ -418,6 +418,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE2E1C941CE832EA002A3A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KosherCocoa;
+			targetProxy = CE2E1C931CE832EA002A3A4B /* PBXContainerItemProxy */;
+		};
 		CEF8610B1CD98FF60057470A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CEF860EC1CD98FF60057470A /* Omer */;
@@ -541,6 +546,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Omer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = elipeer.Omer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -556,6 +562,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Omer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = elipeer.Omer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

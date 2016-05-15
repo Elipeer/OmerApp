@@ -7,12 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize locationManager;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -32,27 +33,90 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
+    
+/*
+    NSTimeZone *timeZone = [NSTimeZone localTimeZone];
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    self.locationManager.distanceFilter = kCLDistanceFilterNone;
+    [self.locationManager startUpdatingLocation];
+    [locationManager requestAlwaysAuthorization];
+    float latitude = locationManager.location.coordinate.latitude;
+    float longitude = locationManager.location.coordinate.longitude;
+    
+    KCGeoLocation *location = [[KCGeoLocation alloc] initWithLatitude:latitude andLongitude:longitude andTimeZone:timeZone];
+    
+    KCAstronomicalCalendar *calendar = [[KCAstronomicalCalendar alloc] initWithLocation:location];
+    
+    NSDate *now = [calendar sunset];
+    
+    NSCalendar *nextCal = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *nextComp = [nextCal components:NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute fromDate:now];
+    
+    
+    NSDate *dateToCheck = [nextCal dateFromComponents:nextComp];
+    NSDate *now2 = [NSDate date];
+
+
+    
     NSDate *today = [NSDate date];
-    NSInteger dayOfSefira = [KCSefiratHaomerCalculator dayOfSefiraForDate:today];
+switch ([today compare:dateToCheck]) {
+        case NSOrderedAscending:{
+            NSInteger dayOfSefira = [KCSefiratHaomerCalculator dayOfSefiraForDate:now2];
+            UILocalNotification *notifications = [[UILocalNotification alloc] init];
+            UIApplication *app = [UIApplication sharedApplication];
+            
+            if (notifications) {
+                notifications.fireDate = today;
+                notifications.timeZone = [NSTimeZone defaultTimeZone];
+                notifications.repeatInterval = 0;
+                notifications.applicationIconBadgeNumber = dayOfSefira;
+                [app scheduleLocalNotification:notifications];
+                NSLog(@"Notification");
+                
+            }
 
-    
-    NSDate *notificationsDate = [NSDate date];
-    UILocalNotification *notifications = [[UILocalNotification alloc] init];
-    UIApplication *app = [UIApplication sharedApplication];
-    
-    if (notifications) {
-        notifications.fireDate = notificationsDate;
-        notifications.timeZone = [NSTimeZone defaultTimeZone];
-        notifications.repeatInterval = 0;
-        notifications.applicationIconBadgeNumber = dayOfSefira;
-        notifications.alertBody = @"this is notification";
-        [app scheduleLocalNotification:notifications];
-        NSLog(@"Notification");
+        }
+            break;
+            
+        case NSOrderedDescending:{
+            int daysToAdd = 1;
+            NSDate *newDate2 = [now2 dateByAddingTimeInterval:60*60*24*daysToAdd];
+            NSInteger dayOfSefira1 = [KCSefiratHaomerCalculator dayOfSefiraForDate:newDate2];
+            UILocalNotification *notifications = [[UILocalNotification alloc] init];
+            UIApplication *app = [UIApplication sharedApplication];
+            
+            if (notifications) {
+                notifications.fireDate = today;
+                notifications.timeZone = [NSTimeZone defaultTimeZone];
+                notifications.repeatInterval = 0;
+                notifications.applicationIconBadgeNumber = dayOfSefira1;
+                [app scheduleLocalNotification:notifications];
+                NSLog(@"Notification");
+                
+            }
 
+   
+        }
+            break;
+            
+        case NSOrderedSame:{
+            NSLog(@"Date is now");
+        }
+            break;
     }
+
+    
+    
+ 
+
+
+    
     
     NSLog(@"background");
-    
+  */  
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
